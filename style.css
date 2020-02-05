@@ -1,0 +1,68 @@
+    #heading {
+        background-color: #404040;
+        padding: 40px 0px 40px 0px;
+        margin-bottom: 60px;
+        border-radius: 25px;
+        box-shadow: 0 0 3pt 2pt black;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: -15px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    
+    #topSearch {
+        margin-bottom: 30px;
+    }
+    
+    #search-col {
+        background-color: #F5F5F5;
+        height: 600px;
+        border: solid rgb(92, 176, 245);
+    }
+    
+    #display-col {
+        height: 600px;
+        background-color: black;
+        border: solid blue;
+    }
+    
+    #current-weather {
+        height: 50%;
+        background-color: white;
+    }
+    
+    #futureWeatherRow {
+        margin-top: 5%;
+        height: 35%;
+    }
+    
+    .future {
+        background-color: blue;
+        height: 100%;
+        outline: solid black;
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/92/90/6957e4930eb0bc3.jpg);
+        background-size: contain;
+    }
+    
+    #title-and-date {
+        font-size: x-large;
+        margin-bottom: 15px;
+    }
+    
+    #temp-current,
+    #humidity-current,
+    #wind-speed-current,
+    #uv-current {
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    
+    #symbol5,
+    #temp5,
+    #humid5,
+    #date5 {
+        margin-bottom: 5px;
+        font-size: small;
+    }

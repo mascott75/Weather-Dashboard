@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <script src="https://kit.fontawesome.com/dd43c693d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <article class="row-fluid" id="heading"><i class="fas fa-rainbow"></i> Da Weather</article>
+    </header>
+
+    <article class="row" id="content-row">
+        <section class="col-sm-4" id="search-col">
+            <section id="topSearch"></section>
+            <label for="searchInput">Enter a City:</label>
+            <input type="City" class="form-control" id="searchInput" placeholder="City Name">
+            <button id="search-button">search</button>
+        </section>
+        </section>
+        <section class="col-sm-8" id="display-col">
+            <section class="col-sm-10 offset-sm-1" id="current-weather">
+
+            </section>
+            <div class="row" id="futureWeatherRow">
+                <section class="col-sm-2 offset-sm-1 future" id="futureWeather1"></section>
+                <section class="col-sm-2 future" id="futureWeather2"></section>
+                <section class="col-sm-2 future" id="futureWeather3"></section>
+                <section class="col-sm-2 future" id="futureWeather4"></section>
+                <section class="col-sm-2 future" id="futureWeather5"></section>
+            </div>
+        </section>
+    </article>
+    <div id="date5"></div>
+    <div id="symbol5"></div>
+    <div id="temp5"></div>
+    <div id="humid5"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="script.js"></script>
+    <div>
+
+    </div>
+</body>
+
+</html>
